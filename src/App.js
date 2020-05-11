@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import "./App.css";
+import {HR} from "./components/HR";
+//import {Table} from "./components/Table"
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1 className="App-title">Absenta la locul de munca</h1>
+          <div>
+          <img src="https://drive.google.com/uc?id=1-XkqU1S-dBk1xQhsm1mPNRHUW7K_3FVI"/>
+          <img src="https://drive.google.com/uc?id=1-TZAiyD8biM4LzKzSJU2ixZhK58dN26V"/>
+          <img src="https://drive.google.com/uc?id=1-RIUVfs3IfYNAIvJ5Xw6thM3LqjEH0zF"/>
+          </div>
+        </header>
+        <HR />
+      <div>
+        
+      </div>
+      </div>
+    );
+  }
 }
-
 export default App;
