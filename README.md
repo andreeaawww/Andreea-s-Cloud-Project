@@ -17,7 +17,7 @@ Aplicatia isi propune sa ofere utilizatorilor o solutie analitica ce prezinta in
  - authentification: API Key
  - utilizat pentru afisarea zilelor de absenta de la locul de munca
 3. Google Drive: https://developers.google.com/drive
- - (no authentification)
+ - Client ID oauth
  - utilizat pentru afisarea graficelor realizate 
 
 ## Descriere arhitectura
