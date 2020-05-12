@@ -25,6 +25,15 @@ Aplicatia este reprezentata integral printr-o pagina Web construita in ReactJS.
 In aplicatie sunt folosite 3 API-uri: Google Sheets (GET), Google Drive (GET) Holidays (GET).
 Imaginile prezentate in pagina web au fost realizate utilizand Python prin intermediul Google Colab. Acesta este un serviciu cloud Google Provided ce permite realizarea de analize.
 
+#Data Flow:
+
+Data Source: Google Spreadsheets -> imported in Google Colab -> Python analysis -> saved in Google Drive
+
+React App:
+ - renders image files from Google Drive
+ - calls Holidays API & renders response
+ - calls Google Spreadsheets & renders response
+
 *exemplu de Request/Response - read UK Holidays for 2019 from Holidays API
 ```js
         fetch('https://holidayapi.com/v1/holidays?pretty&key=5ea6c2ff-b244-4071-8fc4-ae5250c6d993&country=GB&year=2019')
