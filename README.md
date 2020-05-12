@@ -34,7 +34,7 @@ React App:
  - calls Holidays API & renders response
  - calls Google Spreadsheets & renders response
 
-##Exemplu de Request/Response - read UK Holidays for 2019 from Holidays API
+## Exemplu de Request/Response - read UK Holidays for 2019 from Holidays API
 ```js
         fetch('https://holidayapi.com/v1/holidays?pretty&key=5ea6c2ff-b244-4071-8fc4-ae5250c6d993&country=GB&year=2019')
             .then(response => response.json())
